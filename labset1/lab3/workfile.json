@@ -1,0 +1,1 @@
+{"original array": [2, 10, 6, 6, 8, 2, 5, 5, 4, 6], "array sum": 54, "max value": 2, "duplicates (value: repeat count)": {"2": 2, "5": 2, "6": 3}, "swapped max and min": [10, 2, 6, 6, 8, 2, 5, 5, 4, 6]}
