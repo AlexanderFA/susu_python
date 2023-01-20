@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block header_text %}
+Добавление товара
+{% endblock %}
+
+{% block main %}
+<form action="" method="post">
+    <div class="row">
+        <div class="col"><label for="title">Название</label></div>
+        <div class="col"><label for="price">Цена</label></div>
+        <div class="col"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="text" name="title" id="title" class="form-control">
+        </div>
+        <div class="col">
+            <input type="number" name="price" id="price" class="form-control">
+        </div>
+        <div class="col">
+            <button class="btn btn-success" type="submit">Добавить</button>
+        </div>
+    </div>
+</form>
+{% endblock %}
